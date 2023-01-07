@@ -216,7 +216,7 @@ int main()
 		printf("mysql_init error: %s\n", mysql_error(mysql));
 		exit(1);
 	}
-	if(NULL == mysql_real_connect(mysql, "localhost", "root", "asd4466911", "ChatRoomProject", 0, NULL, 0))
+	if(NULL == mysql_real_connect(mysql, "localhost", "root", "123456", "ChatRoomProject", 0, NULL, 0))
 	{
 		printf("mysql_real_connect error: %s\n", mysql_error(mysql));
 		exit(1);
